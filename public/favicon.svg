@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Favicon SVG: cometa estilizado em gradiente púrpura -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Favicon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(250,65%,65%)"/>
+      <stop offset="1" stop-color="hsl(250,47%,60%)"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,0.95)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- Fundo arredondado -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#g)" />
+
+  <!-- Cauda do cometa (sutil) -->
+  <g transform="translate(10 36) rotate(-28)">
+    <path d="M0 0 C10 -4 26 -4 38 4 C26 -2 12 -2 0 6 Z" fill="url(#tail)" filter="url(#blur)" />
+    <circle cx="40" cy="6" r="5.2" fill="#ffffff" />
+  </g>
+
+  <!-- Pequena estrela de brilho -->
+  <g transform="translate(46 12)">
+    <path d="M0 -3 L1 0 L4 1 L1 2 L0 5 L-1 2 L-4 1 L-1 0 Z" fill="rgba(255,255,255,0.95)"/>
+  </g>
+</svg>
