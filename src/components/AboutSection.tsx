@@ -15,13 +15,13 @@ export const AboutSection = () => {
                     <h3 className="text-2xl font-semibold">Desenvolvedor Web</h3>
 
                     <p className="text-muted-foreground">
-                        Ainda em fase de aprendizado, quero me eespecializar no deessenvolvimento de
+                        Ainda em fase de aprendizado, quero me especializar no desenvolvimento de
                         soluções web. Quero desenvolver aplicações que são responsivas e acessiveis.
                     </p>
 
                     <p className="text-muted-foreground">
                         Gosto de experimentar novas tecnologias, e abrir novas possibilidades
-                        de resolver problemas. Estou constantimente eem aprendizado, e quero sempre estar
+                        de resolver problemas. Estou constantimente em aprendizado, e quero sempre estar
                         iterado nas mais diversas tecnologias disponiveis.
                     </p>
 
