@@ -7,7 +7,7 @@ const projects = [
         description: "Uma página de planejamento e vizualização de tarefas",
         image: "/projects/rezap.png",
         tags: ["React", "TypeScript", "HTML", "CSS", "C#", "ASP.NET"],
-        demoUrl: "https://dashboard-planejamento-63pi0wsav-xcode-sketchers-projects.vercel.app/",
+        demoUrl: "https://dashboard-planejamento.vercel.app/",
         github: "https://github.com/Xcode-sketcher/Dashboard-planejamento"
     },
     {
